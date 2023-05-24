@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+$font-family: 'Lato';
+
+// --------------------- Global Styles ---------------------------
+
+ul {
+    list-style: none;
+}
+
+
+// ----------------------------------------------------------------
+header{
+    min-width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .logo{
+    max-width: 360px;
+    min-width: 200px;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    ul{
+        display: flex;
+        flex-direction: row;
+        font-family: $font-family;
+        font-size: 1.5rem;
+        align-items: center;
+        gap: 1rem;
+    }
+    .nav-menu-1 {
+        gap: 2.5rem;
+    }
+    .nav-menu-2 li {
+        width: 60px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }   
+    }
+}
