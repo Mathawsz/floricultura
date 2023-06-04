@@ -60,7 +60,7 @@ header .navbar .nav-menu-2 li img {
 .hero {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .hero .hero-imgs {
   display: grid;
@@ -111,17 +111,6 @@ header .navbar .nav-menu-2 li img {
 .hero .hero-c-infos-entrega {
   display: grid;
 }
-.hero .hero-c-infos-entrega .hero-content-pagamento {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-  color: #2C6D3B;
-}
-.hero .hero-c-infos-entrega .hero-content-pagamento .price {
-  align-self: flex-start;
-  font-size: 1.8rem;
-}
 .hero .hero-c-infos-entrega div {
   display: flex;
   align-items: center;
@@ -136,11 +125,51 @@ header .navbar .nav-menu-2 li img {
 }
 .hero .hero-c-infos-entrega ul li {
   display: flex;
+  align-items: center;
 }
-.hero .hero-c-infos-entrega ul li .icon {
+
+.icon {
   width: 60px;
 }
-.hero .hero-c-infos-entrega ul li .icon img {
+.icon img {
   width: 100%;
   height: 100%;
+}
+
+.hero-content-pagamento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+}
+
+.pagamento {
+  color: #2C6D3B;
+  font-size: 1rem;
+  align-self: flex-end;
+}
+
+.price {
+  align-self: flex-start;
+  color: #2C6D3B;
+  font-size: 1.5rem;
+  margin-top: -1.25rem;
+}
+
+.hero-content-titulo {
+  font-size: 1.4rem;
+}
+
+.hero-c-infos-endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-c-infos-endereco .infos-title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.hero-c-infos-endereco #endereco {
+  width: 20rem;
+  height: 2rem;
 }/*# sourceMappingURL=compra.css.map */
