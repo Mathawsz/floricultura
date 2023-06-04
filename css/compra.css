@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  font-family: "Lato";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.reset-mp {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  max-width: 360px;
+  min-width: 240px;
+}
+.logo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  min-width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+header .navbar ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+header .navbar .nav-menu-1 {
+  gap: 2.5rem;
+}
+header .navbar .nav-menu-2 li {
+  width: 60px;
+}
+header .navbar .nav-menu-2 li img {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero .hero-imgs {
+  display: grid;
+  gap: 1rem;
+  grid-template: "a main" "b main" "c main" "d main" "e main";
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.hero .hero-imgs .img {
+  border: solid 5px #2C6D3B;
+}
+.hero .hero-imgs .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .hero-imgs .img-selection {
+  width: 100px;
+  height: 90px;
+}
+.hero .hero-imgs .img-selection :nth-child(1) {
+  grid-area: a;
+}
+.hero .hero-imgs .img-selection :nth-child(2) {
+  grid-area: b;
+}
+.hero .hero-imgs .img-selection :nth-child(3) {
+  grid-area: c;
+}
+.hero .hero-imgs .img-selection :nth-child(4) {
+  grid-area: d;
+}
+.hero .hero-imgs .main-img {
+  width: 420px;
+  grid-area: main;
+}
+.hero .hero-border {
+  border: 1px solid #D3D3D3;
+  padding: 1rem;
+}
+.hero .hero-content {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .hero-c-infos-entrega {
+  display: grid;
+}
+.hero .hero-c-infos-entrega .hero-content-pagamento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #2C6D3B;
+}
+.hero .hero-c-infos-entrega .hero-content-pagamento .price {
+  align-self: flex-start;
+  font-size: 1.8rem;
+}
+.hero .hero-c-infos-entrega div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-c-infos-entrega div .img-carro {
+  width: 80px;
+}
+.hero .hero-c-infos-entrega div .img-carro img {
+  width: 100%;
+  height: 100%;
+}
+.hero .hero-c-infos-entrega ul li {
+  display: flex;
+}
+.hero .hero-c-infos-entrega ul li .icon {
+  width: 60px;
+}
+.hero .hero-c-infos-entrega ul li .icon img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=compra.css.map */
