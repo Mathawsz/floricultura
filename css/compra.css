@@ -57,10 +57,16 @@ header .navbar .nav-menu-2 li img {
   height: auto;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero {
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 4rem;
 }
 .hero .hero-imgs {
   display: grid;
@@ -170,6 +176,51 @@ header .navbar .nav-menu-2 li img {
   align-self: center;
 }
 .hero-c-infos-endereco #endereco {
-  width: 20rem;
+  width: 16rem;
   height: 2rem;
+}
+
+.btn-buy {
+  justify-self: center;
+  align-self: center;
+  background-color: #2C6D3B;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem 5rem;
+  border-color: transparent transparent transparent transparent;
+}
+
+.sugestoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  max-width: 1200px;
+  width: 100%;
+}
+.sugestoes h2 {
+  font-size: 1.75rem;
+}
+.sugestoes .sugestoes-content {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+.sugestoes .sugestoes-content li .img {
+  max-width: 170px;
+  border: #2C6D3B solid 5px;
+  padding: 0 1.25rem;
+}
+.sugestoes .sugestoes-content li .img img {
+  width: 100%;
+  height: auto;
+}
+.sugestoes .sugestoes-content li p {
+  width: 200px;
+  font-size: 1.2rem;
+}
+.sugestoes .sugestoes-content li p span {
+  font-weight: bold;
 }/*# sourceMappingURL=compra.css.map */

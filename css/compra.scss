@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import "./global";
+body{
+    display: flex;
+    flex-direction: column;
+}
 .hero{
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 4rem;
     .hero-imgs{
         display: grid;
         gap: 1rem;
@@ -119,8 +124,55 @@
         align-self: center;
     }
     #endereco{
-        width: 20rem;
+        width: 16rem;
         height: 2rem;
     }
 
+}
+.btn-buy{
+    justify-self: center;
+    align-self: center;
+    background-color: $clr-green;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    color: $clr-white;
+    margin-top: 1rem;
+    padding: 1rem 5rem;
+    border-color: transparent transparent transparent transparent;
+}
+
+
+.sugestoes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    max-width: 1200px;
+    width: 100%;
+    h2{
+        font-size: 1.75rem;
+    }
+    .sugestoes-content{
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+        li{
+            .img{
+                max-width: 170px;
+                border: $clr-green solid 5px;
+                padding: 0 1.25rem;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            p{
+                width: 200px;
+                font-size: 1.2rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 }
