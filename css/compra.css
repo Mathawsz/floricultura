@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  font-family: "Lato";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.reset-mp {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  max-width: 360px;
+  min-width: 240px;
+}
+.logo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  min-width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+header .navbar ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+header .navbar .nav-menu-1 {
+  gap: 2.5rem;
+}
+header .navbar .nav-menu-2 li {
+  width: 60px;
+}
+header .navbar .nav-menu-2 li img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  max-width: 100vw;
+  background-color: #2C6D3B;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+footer .footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+footer .footer-icons li {
+  border-radius: 100%;
+  max-width: 45px;
+}
+footer .footer-icons li a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(2.35);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.hero .hero-imgs {
+  display: grid;
+  gap: 1rem;
+  grid-template: "a main" "b main" "c main" "d main" "e main";
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.hero .hero-imgs .img {
+  border: solid 5px #2C6D3B;
+}
+.hero .hero-imgs .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero .hero-imgs .img-selection {
+  width: 100px;
+  height: 90px;
+}
+.hero .hero-imgs .img-selection :nth-child(1) {
+  grid-area: a;
+}
+.hero .hero-imgs .img-selection :nth-child(2) {
+  grid-area: b;
+}
+.hero .hero-imgs .img-selection :nth-child(3) {
+  grid-area: c;
+}
+.hero .hero-imgs .img-selection :nth-child(4) {
+  grid-area: d;
+}
+.hero .hero-imgs .main-img {
+  width: 420px;
+  grid-area: main;
+}
+.hero .hero-border {
+  border: 1px solid #D3D3D3;
+  padding: 1rem;
+}
+.hero .hero-content {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .hero-c-infos-entrega {
+  display: grid;
+}
+.hero .hero-c-infos-entrega div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-c-infos-entrega div .img-carro {
+  width: 80px;
+}
+.hero .hero-c-infos-entrega div .img-carro img {
+  width: 100%;
+  height: 100%;
+}
+.hero .hero-c-infos-entrega ul li {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 60px;
+}
+.icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content-pagamento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+}
+
+.pagamento {
+  color: #2C6D3B;
+  font-size: 1rem;
+  align-self: flex-end;
+}
+
+.price {
+  align-self: flex-start;
+  color: #2C6D3B;
+  font-size: 1.5rem;
+  margin-top: -1.25rem;
+}
+
+.hero-content-titulo {
+  font-size: 1.4rem;
+}
+
+.hero-c-infos-endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-c-infos-endereco .infos-title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.hero-c-infos-endereco #endereco {
+  width: 16rem;
+  height: 2rem;
+}
+
+.btn-buy {
+  justify-self: center;
+  align-self: center;
+  background-color: #2C6D3B;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 1rem 5rem;
+  border-color: transparent transparent transparent transparent;
+}
+
+.sugestoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  max-width: 1200px;
+  width: 100%;
+}
+.sugestoes h2 {
+  font-size: 1.75rem;
+}
+.sugestoes .sugestoes-content {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+.sugestoes .sugestoes-content li .img {
+  max-width: 170px;
+  border: #2C6D3B solid 5px;
+  padding: 0 1.25rem;
+}
+.sugestoes .sugestoes-content li .img img {
+  width: 100%;
+  height: auto;
+}
+.sugestoes .sugestoes-content li p {
+  width: 200px;
+  font-size: 1.2rem;
+}
+.sugestoes .sugestoes-content li p span {
+  font-weight: bold;
+}/*# sourceMappingURL=compra.css.map */
