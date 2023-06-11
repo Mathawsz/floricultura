@@ -1,36 +1,30 @@
-.gridAnuncio {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-body {
-  margin: 0;
+.anuncio {
+  margin-top: 200px;
+  height: 3000px;
 }
 
 .mensagemInicio {
   display: flex;
-  gap: 18px;
-  font-size: 32px;
-}
-.uph1 {
-  position: relative;
-  display: flex;
-  bottom: 150px;
-  font-size: 128px;
-  color: #2c6d3b;
+  gap: 10px;
 }
 
-.butaoCompreAgora {
-  font-size: 45px;
-  background: #2c6d3b;
-  color: white;
-  border-radius: 8px;
-  width: 70%;
-  border: 12px solid #2c6d3b;
-  display: flex;
-  bottom: 300px;
+.amor {
+  font-size: 64px;
 }
-.but {
+
+.alinha {
+  margin-left: 50px;
+}
+.flex {
+  display: flex;
+  gap: 15px;
+}
+
+.imgLeft {
+  margin-right: 100px;
   position: relative;
-  bottom: 230px;
+  left: 210px;
+}
+.imgCentral {
+  text-align: center;
 }
