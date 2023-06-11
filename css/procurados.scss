@@ -1,0 +1,38 @@
+.lista {
+    color: black;
+  }
+  .procurados{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    h2{
+        justify-self: flex-start;
+        text-align: left;
+        width: 65%;
+    }
+
+    .container{
+        margin: 0;
+        display: flex;
+        padding: 0;
+        
+        .row{
+            display: flex;
+            margin: 0;
+            min-width: 100%;
+            ul{
+                padding: 0;
+            }
+        }
+        .col{
+            padding: 0;   
+            justify-content: space-between;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
