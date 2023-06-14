@@ -1,0 +1,30 @@
+.anuncio {
+  margin-top: 200px;
+  height: 3000px;
+}
+
+.mensagemInicio {
+  display: flex;
+  gap: 10px;
+}
+
+.amor {
+  font-size: 64px;
+}
+
+.alinha {
+  margin-left: 50px;
+}
+.flex {
+  display: flex;
+  gap: 15px;
+}
+
+.imgLeft {
+  margin-right: 100px;
+  position: relative;
+  left: 210px;
+}
+.imgCentral {
+  text-align: center;
+}
