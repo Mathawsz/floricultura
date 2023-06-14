@@ -23,7 +23,7 @@ a {
 .logo img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 header {
@@ -54,6 +54,21 @@ header .navbar .nav-menu-2 li {
 header .navbar .nav-menu-2 li img {
   width: 100%;
   height: auto;
+}
+.alignCenter {
+  margin-left: 20%;
+}
+.tmtexto {
+  font-size: 14px;
+}
+.btnFlor {
+  color: black;
+}
+.btnFlor :hover {
+  color: #2c6d3b;
+}
+.Cwhite:hover {
+  color: white;
 }
 
 footer {
@@ -87,6 +102,6 @@ footer .footer-icons li a img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transform: scale(2.35);
-}/*# sourceMappingURL=global.css.map */
+} /*# sourceMappingURL=global.css.map */
